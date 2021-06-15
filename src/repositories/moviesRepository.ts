@@ -14,6 +14,7 @@ const movieSearchRepository = async (name: string, page: string) => {
   });
 
   const movies = httpRequestsResponse.data;
+  console.log(movies)
   return movies;
 };
 
